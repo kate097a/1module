@@ -115,9 +115,14 @@ module.exports = {
       new HtmlWebpackPlugin({
         template: './src/aboutDreams/interpretations.html',
         filename: './layout/aboutDreams/interpretations.html'
+      }),
+
+      new HtmlWebpackPlugin({
+        template: './src/layout/interpretations.html',
+        filename: './layout/aboutDreams/interpretations.html'
       })
 
-
+      
     
     // Article
     // new HtmlWebpackPlugin({
