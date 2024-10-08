@@ -113,16 +113,21 @@ module.exports = {
       }),
 
       new HtmlWebpackPlugin({
-        template: './src/aboutDreams/interpretations.html',
-        filename: './layout/aboutDreams/interpretations.html'
+        template: './src/tests.html',
+        filename: './tests.html'
       }),
 
       new HtmlWebpackPlugin({
-        template: './src/layout/interpretations.html',
-        filename: './layout/aboutDreams/interpretations.html'
+        template: './src/aboutDreams/interpretations.html',
+        filename: './aboutDreams/interpretations.html'
+      }),
+
+      new HtmlWebpackPlugin({
+        template: './src/layout/advices.html',
+        filename: './layout/advices.html'
       })
 
-      
+
     
     // Article
     // new HtmlWebpackPlugin({
